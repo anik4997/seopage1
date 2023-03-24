@@ -102,7 +102,14 @@ body{
     left: 25px;
 }
 input[type="date"]{
-    width: 110px;
+    width: 115px;
+}
+.attachment_input{
+    display: none !important;
+    visibility: none !important;
+}
+.attachment_label{
+    cursor: pointer;
 }
 .top_num{
     background-color: #E8EEF3;
@@ -124,40 +131,46 @@ input{
     margin-left: 18px;
 }
 .circle{
-    top: 7px;
-    left: 25px;
+    top: 8px;
+    left: 5px;
     position: relative;
     display: inline-block;
     height: 30px;
     min-width: 50px;
     float: left;
     background: #D21010;
-    clip-path: ellipse(40% 40% at 0% 50%)
+    clip-path: ellipse(40% 40% at 0% 50%);
+    transform: rotate(180deg);
 }
 .circle_horizontal_column_2{
-    top: 7px;
-    left: 25px;
+    top: 8px;
+    left: 5px;
     position: relative;
     display: inline-block;
     height: 30px;
     min-width: 50px;
     float: left;
     background: #00B5FF;
-    clip-path: ellipse(40% 40% at 0% 50%)
+    clip-path: ellipse(40% 40% at 0% 50%);
+    transform: rotate(180deg);
 }
 .circle_horizontal_column_3{
-    top: 7px;
-    left: 25px;
+    top: 8px;
+    left: 5px;
     position: relative;
     display: inline-block;
     height: 30px;
     min-width: 50px;
     float: left;
     background: #FFE700;
-    clip-path: ellipse(40% 40% at 0% 50%)
+    clip-path: ellipse(40% 40% at 0% 50%);
+    transform: rotate(180deg);
 }
 h5,h6,p,i,span,input{
     color: #463739;
+}
+h5,h6,i,span,input{
+    font-weight: 700;
 }
 /* scrollbar design */
 /* width */
